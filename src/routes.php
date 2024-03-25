@@ -31,7 +31,3 @@ $app->post('api/login', [\App\Controllers\AuthController::class, 'login']);
 
 // Add a route to verify the token
 $app->get('api/verify/{token}', [\App\Controllers\AuthController::class, 'verify']);
-
-
-
-
